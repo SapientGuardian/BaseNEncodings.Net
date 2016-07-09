@@ -1,7 +1,14 @@
 BaseNEncodings.Net
 ==================
 
-BaseNEncodings.Net is a general base16, base32, base64 encodings library for .NET 2.0+, which is according to [RFC 4648][1].
+BaseNEncodings.Net is an [RFC 4648][1] compliant base16, base32, and base64 encoding library for .NET Standard 1.1. 
+
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/u464hwdsfnnt5kgl?svg=true)](https://ci.appveyor.com/project/SapientGuardian/basenencodings-net)<br />
+[![Linux/OSX Build Status](https://travis-ci.org/SapientGuardian/basenencodings-net.png)](https://travis-ci.org/SapientGuardian/basenencodings-net)<br />
+[![NuGet Package](https://img.shields.io/nuget/vpre/SapientGuardian.BaseNEncodings.svg)](https://www.nuget.org/packages/SapientGuardian.BaseNEncodings/)
+
+
+This repository was forked from https://github.com/wallf/BaseNEncodings.Net and retargeted to .NET Standard 1.1. The original readme is preserved below, with modifications where appropriate.
 
 > The project [java-base-n-encodings][9] was migrated from BaseNEncodings.Net.
 
@@ -26,7 +33,7 @@ Basic Usage
 -----------
 1. Adds a reference of the assembly in you project.
 
-        PM> Install-Package WallF.BaseNEncodings
+        PM> Install-Package SapientGuardian.BaseNEncodings
 
 2. Using the WallF.BaseNEncodings **namespace**.
 
@@ -56,8 +63,7 @@ Documentation, Simple and Benchmark
 
 
   [1]: http://tools.ietf.org/html/rfc4648
-  [2]: http://nuget.org/packages/WallF.BaseNEncodings
-  [3]: https://github.com/wallf/BaseNEncodings.Net/releases/download/v1.0.0/BaseNEncodings.Net.v1.0.0.zip
+  [2]: https://www.nuget.org/packages/SapientGuardian.BaseNEncodings  
   [4]: https://github.com/wallf/BaseNEncodings.Net/tree/master/Simple
   [5]: https://github.com/wallf/BaseNEncodings.Net/tree/master/Benchmark
   [9]: https://github.com/wallf/java-base-n-encodings
