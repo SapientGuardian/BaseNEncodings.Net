@@ -4,7 +4,7 @@ BaseNEncodings.Net
 BaseNEncodings.Net is an [RFC 4648][1] compliant base16, base32, and base64 encoding library for .NET Standard 1.1. 
 
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/u464hwdsfnnt5kgl?svg=true)](https://ci.appveyor.com/project/SapientGuardian/basenencodings-net)<br />
-[![Linux/OSX Build Status](https://travis-ci.org/SapientGuardian/basenencodings-net.png)](https://travis-ci.org/SapientGuardian/basenencodings-net)<br />
+[![Linux/OSX Build Status](https://travis-ci.org/SapientGuardian/basenencodings-net.png)](https://travis-ci.org/SapientGuardian/BaseNEncodings.Net)<br />
 [![NuGet Package](https://img.shields.io/nuget/vpre/SapientGuardian.BaseNEncodings.svg)](https://www.nuget.org/packages/SapientGuardian.BaseNEncodings/)
 
 
@@ -27,7 +27,7 @@ Features
 
 Installation
 -------
-- Download the [assembly][3] and references it manually, or install using [NuGet][2](recommend).
+- Install using [NuGet][2].
 
 Basic Usage
 -----------
