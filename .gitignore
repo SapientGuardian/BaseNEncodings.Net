@@ -9,3 +9,5 @@
 
 # NuGet
 !.nuget/bin
+/BaseNEncodings/*.user
+/BaseNEncodings/project.lock.json

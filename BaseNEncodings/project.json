@@ -1,8 +1,10 @@
 ﻿{
   "version": "1.1.0",
-  "authors": [ "wallf(wall.f.workshop#gmail.com)" ],
+  "description": "BaseNEncodings.Net is an RFC 4648 compliant base16, base32, and base64 encoding library for .NET Standard 1.1.",
+  "authors": [ "wallf(wall.f.workshop#gmail.com)", "SapientGuardian" ],
+  "copyright": "Copyright © Wall.F 2014",
   "packOptions": {
-    "projectUrl": "https://github.com/wallf/BaseNEncodings.Net",
+    "projectUrl": "https://github.com/SapientGuardian/BaseNEncodings.Net",
     "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
     "tags": [ "Base16", "Base32", "Base64", "Base-N", "RFC4648" ]
   },
